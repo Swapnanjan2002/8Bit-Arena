@@ -2,11 +2,15 @@
 
 **8Bit-Arena** is a modern, fully responsive gaming website featuring a "Cyberpunk/Dark Mode" aesthetic. It serves as a portal for trending games and features a custom-built, playable Snake mini-game.
 
-![Project Banner](https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1000&auto=format&fit=crop)
-*(Optional: Replace this link with a screenshot of your actual website)*
+<img width="1896" height="968" alt="games" src="https://github.com/user-attachments/assets/ee607c3c-8362-4966-aa03-53f0e4bbd406" />
 
-## 🚀 Live Demo
-**[Insert Your Vercel Deployment Link Here]**
+<img width="1897" height="968" alt="minigames" src="https://github.com/user-attachments/assets/e65e74c7-2d2b-4211-b8a9-265972c035c7" />
+
+<img width="1901" height="968" alt="showreel" src="https://github.com/user-attachments/assets/6adc81c0-8c2d-4744-87f3-c5c12fe07794" />
+
+
+## 🚀 Live Demo 
+https://8-bit-arena.vercel.app/
 
 ---
 

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8Bit-Arena - Ultimate Gaming</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-ghost"></i> 8Bit-<span>Arena</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#play-zone">Mini-Game</a></li>
+            <li><a href="#gallery">Gallery</a></li> <li><a href="#faq">FAQ</a></li>         <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="home" class="hero section-bg-1">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Welcome to <br> <span class="highlight">8BIT-ARENA</span></h1>
+            <p class="fade-in">Experience the next level of gaming reality.</p>
+            
+            <div class="btn-group">
+                <button class="cta-btn primary" onclick="document.getElementById('games').scrollIntoView({behavior: 'smooth'})">
+                    Explore Games <i class="fa-solid fa-rocket"></i>
+                </button>
+                <button class="cta-btn secondary" onclick="document.getElementById('play-zone').scrollIntoView({behavior: 'smooth'})">
+                    Play Mini-Game <i class="fa-solid fa-gamepad"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="games" class="games-section section-bg-2">
+        <h2 class="section-title">Trending Games</h2>
+
+        <div class="game-grid">
+            <div class="game-card">
+                <div class="card-image" style="background-image: url('Ghost_of_Tsushima.jpg')">
+                    <span class="badge">Exclusive</span>
+                </div>
+                <div class="card-info">
+                    <h3>Ghost of Tsushima</h3>
+                    <p>Action / Adventure</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.9</div>
+                    <a href="https://www.playstation.com/en-us/games/ghost-of-tsushima/" target="_blank" class="play-btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image" style="background-image: url('Grand_Theft_Auto_V.png')">
+                    <span class="badge hot">Hot</span>
+                </div>
+                <div class="card-info">
+                    <h3>GTA 5</h3>
+                    <p>Open World / Action</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.8</div>
+                    <a href="https://www.rockstargames.com/gta-v" target="_blank" class="play-btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image" style="background-image: url('Farcry5.jpg')">
+                </div>
+                <div class="card-info">
+                    <h3>FarCry 5</h3>
+                    <p>FPS / Survival</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.5</div>
+                    <a href="https://www.ubisoft.com/en-us/game/far-cry/far-cry-5" target="_blank" class="play-btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image" style="background-image: url('Cyberpunk_2077.jpg')">
+                    <span class="badge">Scifi</span>
+                </div>
+                <div class="card-info">
+                    <h3>Cyberpunk 2077</h3>
+                    <p>RPG / Shooter</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.7</div>
+                    <a href="https://www.cyberpunk.net/" target="_blank" class="play-btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image" style="background-image: url('Days_Gone.jpg')">
+                </div>
+                <div class="card-info">
+                    <h3>Days Gone</h3>
+                    <p>Survival / Horror</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.6</div>
+                    <a href="https://www.bendstudio.com/games/days-gone" target="_blank" class="play-btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image" style="background-image: url('The_Last_of_Us.jpg')">
+                    <span class="badge">Story</span>
+                </div>
+                <div class="card-info">
+                    <h3>The Last of Us</h3>
+                    <p>Action / Drama</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 5.0</div>
+                    <a href="https://www.playstation.com/en-us/games/the-last-of-us-part-i/" target="_blank" class="play-btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image" style="background-image: url('Tekken8.jpg')">
+                    <span class="badge">New</span>
+                </div>
+                <div class="card-info">
+                    <h3>Tekken 8</h3>
+                    <p>Fighting / Arcade</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.8</div>
+                    <a href="https://tekken.com/" target="_blank" class="play-btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image" style="background-image: url('Resident8.jpg')">
+                </div>
+                <div class="card-info">
+                    <h3>Resident Evil 8</h3>
+                    <p>Horror / Survival</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.7</div>
+                    <a href="https://www.residentevil.com/village/" target="_blank" class="play-btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image" style="background-image: url('Mortal_Kombat_11.png')">
+                </div>
+                <div class="card-info">
+                    <h3>Mortal Kombat 11</h3>
+                    <p>Fighting / Gore</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.8</div>
+                    <a href="https://www.mortalkombat.com/" target="_blank" class="play-btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image" style="background-image: url('Red_Dead_Redemption_II.jpg')">
+                </div>
+                <div class="card-info">
+                    <h3>Red Dead Redemption 2</h3>
+                    <p>Open World / Western</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 5.0</div>
+                    <a href="https://www.rockstargames.com/reddeadredemption2" target="_blank" class="play-btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image" style="background-image: url('bo6.jpg')">
+                    <span class="badge hot">New</span>
+                </div>
+                <div class="card-info">
+                    <h3>CoD: Black Ops 6</h3>
+                    <p>FPS / Action</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.9</div>
+                    <a href="https://www.callofduty.com/blackops6" target="_blank" class="play-btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="card-image" style="background-image: url('Wildlands.jpg')">
+                </div>
+                <div class="card-info">
+                    <h3>Tom Clancy's: Wildlands</h3>
+                    <p>Tactical / Open World</p>
+                    <div class="rating"><i class="fa-solid fa-star"></i> 4.7</div>
+                    <a href="https://www.ubisoft.com/en-us/game/tom-clancys-ghost-recon-wildlands" target="_blank" class="play-btn">View Details</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="play-zone" class="play-section section-bg-3">
+        <h2 class="section-title">Mini-Game: <span class="highlight">Neon Snake</span></h2>
+
+        <div class="game-container">
+            <div class="game-header">
+                <div class="score-board">Score: <span id="score">0</span></div>
+                <button id="start-btn">Start Game</button>
+            </div>
+
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+            <div class="controls">
+                <div class="control-row">
+                    <button class="d-pad" id="up-btn"><i class="fa-solid fa-arrow-up"></i></button>
+                </div>
+                <div class="control-row">
+                    <button class="d-pad" id="left-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="d-pad" id="down-btn"><i class="fa-solid fa-arrow-down"></i></button>
+                    <button class="d-pad" id="right-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <p class="instructions">Use <b>Arrow Keys</b> or <b>Buttons</b> to move.</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section section-bg-2">
+        <h2 class="section-title">Arena <span class="highlight">Showcase</span></h2>
+        
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide"><img src="Ghost_of_Tsushima.jpg" alt="Ghost of Tsushima"></div>
+                <div class="slide"><img src="Grand_Theft_Auto_V.png" alt="GTA V"></div>
+                <div class="slide"><img src="Farcry5.jpg" alt="FarCry 5"></div>
+                <div class="slide"><img src="Cyberpunk_2077.jpg" alt="Cyberpunk 2077"></div>
+                <div class="slide"><img src="Days_Gone.jpg" alt="Days Gone"></div>
+                <div class="slide"><img src="The_Last_of_Us.jpg" alt="The Last of Us"></div>
+                <div class="slide"><img src="Tekken8.jpg" alt="Tekken 8"></div>
+                <div class="slide"><img src="Resident8.jpg" alt="Resident Evil 8"></div>
+                <div class="slide"><img src="Mortal_Kombat_11.png" alt="Mortal Kombat 11"></div>
+                <div class="slide"><img src="Red_Dead_Redemption_II.jpg" alt="RDR 2"></div>
+                <div class="slide"><img src="bo6.jpg" alt="Black Ops 6"></div>
+                <div class="slide"><img src="Wildlands.jpg" alt="Wildlands"></div>
+
+                <div class="slide"><img src="Ghost_of_Tsushima.jpg" alt="Ghost of Tsushima"></div>
+                <div class="slide"><img src="Grand_Theft_Auto_V.png" alt="GTA V"></div>
+                <div class="slide"><img src="Farcry5.jpg" alt="FarCry 5"></div>
+                <div class="slide"><img src="Cyberpunk_2077.jpg" alt="Cyberpunk 2077"></div>
+                <div class="slide"><img src="Days_Gone.jpg" alt="Days Gone"></div>
+                <div class="slide"><img src="The_Last_of_Us.jpg" alt="The Last of Us"></div>
+                <div class="slide"><img src="Tekken8.jpg" alt="Tekken 8"></div>
+                <div class="slide"><img src="Resident8.jpg" alt="Resident Evil 8"></div>
+                <div class="slide"><img src="Mortal_Kombat_11.png" alt="Mortal Kombat 11"></div>
+                <div class="slide"><img src="Red_Dead_Redemption_II.jpg" alt="RDR 2"></div>
+                <div class="slide"><img src="bo6.jpg" alt="Black Ops 6"></div>
+                <div class="slide"><img src="Wildlands.jpg" alt="Wildlands"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <h2 class="section-title">F.A.Q.</h2>
+        <div class="faq-container">
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Is 8Bit-Arena free to join?</h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes! Browsing our library and playing our mini-games is 100% free.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Can I play the Trending Games here?</h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>No, we provide reviews and direct links to official stores like Steam, PlayStation, and Epic Games where you can purchase them.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Does the Snake game save my high score?</h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Currently, the score resets when you refresh the page. We are working on a leaderboard update soon!</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How can I contact support?</h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>You can reach us via our Discord channel or Twitter linked in the footer.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you host esports tournaments?</h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>We partner with major organizers to bring you tournament news. Check our "Community" tab for upcoming event schedules.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Is the website mobile-friendly?</h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Absolutely! 8Bit-Arena is fully responsive, so you can browse games and play the mini-game on your phone or tablet.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Can I submit my own game for review?</h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>Yes, indie developers can submit their projects via the "Contact" form. Our editorial team reviews submissions weekly.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What are the PC requirements for these games?</h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>By clicking "View Details" on any game card, you will be redirected to the official page which lists the specific system requirements.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you offer cheat codes or guides?</h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>We focus on fair play and official reviews. However, our community Discord often shares strategy guides and walkthroughs.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How do I report a bug on the website?</h3>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>If you encounter issues with the Snake game or navigation, please tweet at us or send a message through the contact section.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contact" class="section-bg-4">
+        <div class="footer-content">
+            <h2 class="logo"><i class="fa-solid fa-ghost"></i> 8Bit-<span>Arena</span></h2>
+            <p>Join the revolution. Play the impossible.</p>
+            <p>&copy; 2025 8Bit-Arena. All rights reserved.</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-twitch"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
